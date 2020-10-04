@@ -125,4 +125,4 @@ def debug():
     print(g.over())
 
 if __name__ == '__main__':
-    start()
+    auto2()
