@@ -2,7 +2,7 @@ import numpy as np
 import random
 
 class Game:
-    def __init__(self, times = 2, pb = 0.2):
+    def __init__(self, times = 2, pb = 0.1):
         self.table = np.zeros((4, 4), dtype=int)
         self.num = 0
         self.produce(times = times, pb = pb)
